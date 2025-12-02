@@ -11,8 +11,8 @@
 
 This bootcamp prepares law students to be the first generation of AI-enabled lawyers. Students will move beyond basic chatbot interactions to develop practical skills for evaluating, deploying, and building AI-augmented workflows—while integrating ethics and professional responsibility from day one.
 
-**Format**: 6 sessions over 6 weeks (hybrid of both proposals)  
-**Prerequisites**: None required. Willingness to experiment and comfort with ambiguity.  
+**Format**: 6 sessions over 6 weeks (proposed; could add an optional "what's the math" class to split the difference in schedule and approach?)  
+**Prerequisites**: No formal prereqs. Must be willing to experiment and have comfort with ambiguity.  
 **Grading**: Pass/fail to encourage experimentation
 
 ---
