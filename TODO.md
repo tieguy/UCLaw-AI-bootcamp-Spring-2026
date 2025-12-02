@@ -5,6 +5,7 @@
 - [ ] Validate core vision with Tal and Zoe
 - [ ] Confirm duration and scheduling constraints
 - [ ] Understand relationship to existing courses
+- [ ] Discuss key pedagogical questions (see `discussion-questions-2025-12-03.md`)
 
 ### Practitioner Outreach
 - [ ] Reach out to potential law firm CTO/innovation director
@@ -12,7 +13,8 @@
 - [ ] Connect with ethics/risk counsel
 
 ### Curriculum Development
-- [ ] Develop high-level week-by-week outline for discussion with Zoe and Tal
+- [x] Develop high-level week-by-week outline for discussion with Zoe and Tal → `integrated-syllabus-discussion-draft.md`
+- [x] Identify key pedagogical tensions to resolve → `discussion-questions-2025-12-03.md`
 - [ ] Design specific project assignments with rubrics
 - [ ] Prepare example playbooks for Project 2 (encoding exercise)
 - [ ] Create tool evaluation framework for Project 1
