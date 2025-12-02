@@ -4,31 +4,32 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This repository is an **active coordination space** for developing "Building AI-Enabled Lawyers," a half-semester bootcamp at UC Law for Spring 2026. Two instructors (Luis and Zoe) and their AI agents collaborate here to plan and refine the course.
+This repository is an **active coordination space** for developing an AI bootcamp for law students at UC Law, Spring 2026. The instructors (Luis and Zoe) and their AI agents collaborate here to plan and refine the course.
 
-## Important Context
+## What's Settled
 
-**This is a work in progress.** Many elements described in planning documents are proposals under discussion, not final decisions. In particular:
-- Course structure (number of sessions, sequence, content) is not yet firm
-- Project designs are evolving
-- Guest speaker involvement is being coordinated
+- **Format**: 6-8 session bootcamp, clinic-style (hands-on, project-based)
+- **Target audience**: Law students with no technical or coding background
+- **Core goal**: Prepare lawyers to use AI effectively and ethically in practice
 
-When working in this repository, treat planning documents as living drafts open to revision, not settled specifications.
+### Instructors
 
-## Course Vision
+- **Luis Villa**: In-house/transactional counsel perspective; contract review, drafting tools, playbook/template systems
+- **Zoe Dolan**: Appellate clinic practitioner (Public Counsel, Los Angeles); AI literacy, multi-agent workflows, practice management tools
 
-The goal is to develop lawyers who can:
-- Use AI as practical tools beyond basic chat interfaces
-- Exercise judgment about when AI is/isn't appropriate
-- Participate in technology decisions at their firms
-- Integrate technical capability with ethical obligations
+### Shared Themes
 
-Target audience: Law students with no technical or coding background.
+Both instructors emphasize:
+- Experiential, hands-on learning over lecture
+- Ethics and professional responsibility (CA Rule 1.1 competence)
+- Practical AI tool evaluation and use
+- Building judgment about when AI is/isn't appropriate
 
-## Instructors
+## What's Still Open
 
-- **Luis**: In-house/transactional counsel perspective; contract review, drafting tools, template systems
-- **Zoe**: Co-instructor (role details to be added)
+See `TODO.md` for action items and `open-questions.md` for unresolved decisions.
+
+Early proposals from each instructor are in `early-ideation/` — these are starting points for discussion, not final plans.
 
 ## License
 
