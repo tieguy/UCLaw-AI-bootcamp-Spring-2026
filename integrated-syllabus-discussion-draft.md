@@ -11,54 +11,60 @@
 
 This bootcamp prepares law students to be the first generation of AI-enabled lawyers. Students will move beyond basic chatbot interactions to develop practical skills for evaluating, deploying, and building AI-augmented workflows—while integrating ethics and professional responsibility from day one.
 
-**Format**: 6 sessions over 6 weeks (proposed; could add an optional "what's the math" class to split the difference in schedule and approach?)  
-**Prerequisites**: No formal prereqs. Must be willing to experiment and have comfort with ambiguity.  
+**Format**: 6 sessions over the spring semester
+**Schedule**: Jan 23, Jan 30, Feb 13, Mar 13, Mar 20, Apr 10
+**Prerequisites**: No formal prereqs. Must be willing to experiment and have comfort with ambiguity.
 **Grading**: Pass/fail to encourage experimentation
 
 ---
 
 ### Session 1: Foundations — Going Beyond Chat
-*Instructors: Luis & Zoe*
+*Jan 23 · Instructors: Luis & Zoe*
 
 - What lawyers actually do with AI beyond prompting
 - AI literacy: how generative and agentic AI work (conceptual, not technical)
 - Introduction to CA Rule 1.1 competence obligations
-- **Project 1 introduced**: Tool evaluation exercise (compare 2-3 AI tools on a real legal task)
+- **Project 1 assigned**: Tool evaluation exercise — due Session 2
 
 ### Session 2: Computational Thinking & Playbook Design
-*Instructor-led*
+*Jan 30 · Instructor-led · Project 1 due*
 
 - Breaking down legal processes into executable steps
 - From human checklists to instructions an AI can follow
 - The gap between documentation and automation
-- **Project 2 introduced**: Encode an existing law firm checklist/playbook for an LLM
+- **Project 2 assigned**: Encode an existing law firm checklist/playbook for an LLM — due Session 3
 
 ### Session 3: Practice Operations & Tool Selection
-*Guest: Law Firm CTO or Innovation Director*
+*Feb 13 · Guest: Law Firm CTO or Innovation Director · Project 2 due*
 
 - Evaluating vendors when dozens of tools claim similar capabilities
 - Build vs. buy decision-making
 - Client intake, matter management, and workflow tools
 - Vendor/data risk considerations
+- **Project 3 assigned**: Design a new AI-augmented workflow — due Session 4
+
+*(4-week gap for midterms)*
 
 ### Session 4: Litigation & Transactional Applications
-*Guests: Litigator + In-House/Transactional Counsel (Luis)*
+*Mar 13 · Guests: Litigator + In-House/Transactional Counsel (Luis) · Project 3 due*
 
 - Discovery, research, motion practice tools (litigation perspective)
 - Contract review, drafting, and template systems (transactional perspective)
 - Hallucination detection and verification workflows
-- **Project 3 introduced**: Design a new AI-augmented workflow from scratch
+- Project 3 workshop: discuss workflow designs, share approaches
 
-### Session 5: Building Robust AI Workflows
-*Instructor-led*
+### Session 5: Building Robust AI Workflows & Capstone Launch
+*Mar 20 · Instructor-led*
 
 - Prompt engineering and context design for legal work
 - Multi-step and multi-agent coordination
 - Quality control: peer review, verification, "human in the loop"
-- **Project 4 introduced**: Strategic decision exercise
+- **Project 4 (Capstone) assigned**: Strategic decision exercise — presented Session 6
 
-### Session 6: Ethics, Strategy & Capstone
-*Guest: Ethics/Risk Counsel + Capstone presentations*
+*(3-week gap for spring break)*
+
+### Session 6: Ethics, Strategy & Capstone Presentations
+*Apr 10 · Guest: Ethics/Risk Counsel · Project 4 presentations*
 
 - Privilege and confidentiality with AI tools
 - Conflicts in shared tools/data
@@ -70,12 +76,12 @@ This bootcamp prepares law students to be the first generation of AI-enabled law
 
 ### Project Progression
 
-| Project | Focus | Complexity |
-|---------|-------|------------|
-| 1. Tool Evaluation | Compare existing tools on a real task | Low |
-| 2. Playbook Encoding | Translate human checklist → AI instructions | Medium |
-| 3. Workflow Design | Create new AI-augmented process | Medium-High |
-| 4. Strategic Decision | Build/buy/commission analysis with justification | High |
+| Project | Focus | Assigned | Due | Time |
+|---------|-------|----------|-----|------|
+| 1. Tool Evaluation | Compare existing tools on a real task | Jan 23 | Jan 30 | 1 week |
+| 2. Playbook Encoding | Translate human checklist → AI instructions | Jan 30 | Feb 13 | 2 weeks |
+| 3. Workflow Design | Create new AI-augmented process | Feb 13 | Mar 13 | 4 weeks |
+| 4. Strategic Decision (Capstone) | Build/buy/commission analysis with justification | Mar 20 | Apr 10 | 3 weeks |
 
 ---
 
