@@ -14,6 +14,7 @@
 - [x] Develop high-level week-by-week outline for discussion with Zoe and Tal → `integrated-syllabus-discussion-draft.md`
 - [x] Identify key pedagogical tensions to resolve → `discussion-questions-2025-12-03.md`
 - [ ] Design specific project assignments with rubrics
+- [ ] **Decide**: Should Project 1 be a single mandatory assignment (everyone does access-to-justice evaluation) rather than offering multiple tracks? The A2J approach brings rich discussion points around UPL, privacy, methodology (RAG vs. reasoning), and real-world impact—having everyone work on the same problem may deepen class discussion compared to fragmented tracks.
 
 ### Resources and Materials
 - [ ] Contact Owen Astrachan (Duke) about computational thinking materials

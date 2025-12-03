@@ -4,26 +4,50 @@ Working document to validate course structure through concrete assignment design
 
 ## Project 1: Tool Evaluation
 
-**Core task**: Simulate a task you might face in your first year of practice. Use at least two AI tools, then verify the output against primary sources.
+**Core task**: Evaluate AI tools through rigorous testing, with emphasis on understanding capabilities, limitations, and ethical boundaries.
 
 **Framing**: "Your supervising partner asks you to take a first pass at [task]. You have access to AI tools. Use them—but remember, your name is on the work product."
 
 ### Students choose based on career interest:
 
-**Transactional / Contracts track**
+**Option A: Access-to-Justice Tool Evaluation**
+
+Rigorously test an existing AI-powered access-to-justice tool (e.g., UChicago's LeaseChat, tenant rights tools, family law intake tools, benefits eligibility screeners).
+
+*Evaluation Framework:*
+- **Accuracy & Reliability**: Test with jurisdiction-specific edge cases. Does it hallucinate legal rules? Does it catch subtle illegal clauses that vary by state/municipality?
+- **Security & Privacy**: Where does user data go? Are leases/intake forms stored? Is PII handled securely?
+- **Unauthorized Practice of Law (UPL)**: Does it cross from "legal information" to "legal advice"? Where is the boundary?
+- **Discoverability Risk**: Are user conversations privileged? Could they become evidence against the user?
+- **Methodology**: Does it use RAG with verified legal databases or pure reasoning models? What are the tradeoffs?
+
+**Option B: Transactional / Contracts track**
 Review a vendor agreement or NDA with embedded issues (one-sided indemnity, problematic IP assignment, missing limitation of liability). Use two or more tools to identify issues. Then verify: pull the relevant UCC provisions or case law that support your redlines.
 
-**Litigation track**
+**Option C: Litigation track**
 Research a focused legal question (e.g., "Under California law, can a commercial landlord require a tenant to waive jury trial rights?"). Use two or more tools. Then verify: confirm every cited case exists, check that holdings are accurately described, identify any gaps.
 
-**Client-facing / Access to justice track**
+**Option D: Client-facing / Intake track**
 Process a realistic intake inquiry (messy, emotional, multiple potential claims). Use two or more tools to identify potential claims, flag missing information, and draft a follow-up. Then verify: are the legal theories actually viable? Did the tools miss obvious issues?
 
-**Deliverable**: 1-2 page reflection covering:
+### Deliverables
+
+**Standard deliverable** (~1000 words) covering:
 - What each tool caught, missed, or got wrong
 - How you verified the output
+- Specific failure modes discovered and why they occurred
+- Recommendations for safe use (or warnings against use)
 - How confident you'd be presenting this to a supervisor
 - What you'd do differently next time
+
+**Alternative deliverable: Vibe-Code Your Own Tool**
+Instead of evaluating existing tools, students may work alone or in teams of 2-3 to rapidly prototype their own tool for their chosen track using general-purpose LLMs. The goal is evaluation through building, not production deployment.
+
+*Process:* Build quickly ("vibe-coded") using prompting/chaining techniques, then rigorously evaluate—what does it get right vs. wrong? Where does it hallucinate? What are the security, privacy, and ethical boundaries?
+
+*Deliverable*: Brief demo (5 min) + ~1000 word reflection covering the same elements as the standard deliverable, plus what you learned about AI capabilities and limitations through the act of building.
+
+**Note**: Discovering "this doesn't work safely" is a valid and valuable outcome for any option.
 
 ---
 
