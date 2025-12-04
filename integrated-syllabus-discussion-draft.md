@@ -18,24 +18,27 @@ This bootcamp prepares law students to be the first generation of AI-enabled law
 
 ---
 
-### Session 1: Foundations — Going Beyond Chat
+### Session 1: Foundations & Model Literacy
 *Jan 23 · Instructors: Luis & Zoe*
 
 - What lawyers actually do with AI beyond prompting
-- AI literacy: how generative and agentic AI work (conceptual, not technical)
-- Introduction to CA Rule 1.1 competence obligations
-- **Project 1 assigned**: Tool evaluation exercise — due Session 2
+- Model literacy: how AI tools work, why they fail on edge cases and matters of first impression
+- Training data, distributions, and generalization — building intuition for when tools are likely to struggle
+- CA Rule 1.1 competence: model literacy as professional obligation
+- Different models, different "personalities": why cross-model comparison matters
+- **Project 1 assigned**: Tool evaluation exercise (compare 2+ models on same task) — due Session 2
 
 ### Session 2: Computational Thinking & Playbook Design
 *Jan 30 · Instructor-led · Project 1 due*
 
-- Breaking down legal processes into executable steps
-- From human checklists to instructions an AI can follow
-- The gap between documentation and automation
+- Computational thinking: breaking legal processes into steps an AI can execute
+- From human checklists to machine-readable instructions
+- The gap between documentation and automation — what's implicit in human workflows
+- Preparation for Project 3: how to structure work for AI execution
 - **Project 2 assigned**: Encode an existing law firm checklist/playbook for an LLM — due Session 3
 
 ### Session 3: Practice Operations & Tool Selection
-*Feb 13 · Guest: Law Firm CTO or Innovation Director · Project 2 due*
+*Feb 13 · Project 2 due*
 
 - Evaluating vendors when dozens of tools claim similar capabilities
 - Build vs. buy decision-making
@@ -46,7 +49,7 @@ This bootcamp prepares law students to be the first generation of AI-enabled law
 *(4-week gap for midterms)*
 
 ### Session 4: Litigation & Transactional Applications
-*Mar 13 · Guests: Litigator + In-House/Transactional Counsel (Luis) · Project 3 due*
+*Mar 13 · Project 3 due*
 
 - Discovery, research, motion practice tools (litigation perspective)
 - Contract review, drafting, and template systems (transactional perspective)
@@ -57,14 +60,15 @@ This bootcamp prepares law students to be the first generation of AI-enabled law
 *Mar 20 · Instructor-led*
 
 - Prompt engineering and context design for legal work
-- Multi-step and multi-agent coordination
-- Quality control: peer review, verification, "human in the loop"
+- Multi-step workflows and orchestration patterns
+- Cross-model comparison as "AI peer review": using multiple models to critique, cross-check, and get unstuck
+- Quality control: verification workflows, "human in the loop"
 - **Project 4 (Capstone) assigned**: Strategic decision exercise — presented Session 6
 
 *(3-week gap for spring break)*
 
 ### Session 6: Ethics, Strategy & Capstone Presentations
-*Apr 10 · Guest: Ethics/Risk Counsel · Project 4 presentations*
+*Apr 10 · Project 4 presentations*
 
 - Privilege and confidentiality with AI tools
 - Conflicts in shared tools/data
@@ -83,11 +87,3 @@ This bootcamp prepares law students to be the first generation of AI-enabled law
 | 3. Workflow Design | Create new AI-augmented process | Feb 13 | Mar 13 | 4 weeks |
 | 4. Strategic Decision (Capstone) | Build/buy/commission analysis with justification | Mar 20 | Apr 10 | 3 weeks |
 
----
-
-### Practitioner Involvement (4 sessions)
-
-- Law Firm CTO/Innovation Director (Session 3)
-- Litigator — discovery, research, privilege realities (Session 4)
-- In-House/Transactional Counsel — Luis (Session 4)
-- Ethics/Risk Counsel (Session 6)
