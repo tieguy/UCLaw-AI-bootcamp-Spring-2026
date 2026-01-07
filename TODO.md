@@ -5,10 +5,14 @@
 - [ ] Confirm duration and scheduling constraints
 - [ ] Discuss key pedagogical questions (see `discussion-questions-2025-12-03.md`)
 
-### Practitioner Outreach
-- [ ] Reach out to potential law firm CTO/innovation director
-- [ ] Identify and contact litigators (large firm and small/mid-size)
-- [ ] Connect with ethics/risk counsel
+### Practitioner Involvement (Optional Enhancements)
+
+Guest speakers are supplements to the core instructional spine, not prerequisites. If available and aligned with specific sessions, consider:
+
+- [ ] Law Firm CTO/Innovation Director — could reinforce Session 3 (practice operations, vendor evaluation)
+- [ ] Litigator — could reinforce Session 4 (discovery, research, privilege realities)
+- [ ] In-House/Transactional Counsel — could reinforce Session 4 (contract review, drafting)
+- [ ] Ethics/Risk Counsel — could reinforce Session 6 (privilege, conflicts, competence)
 
 ### Curriculum Development
 - [x] Develop high-level week-by-week outline for discussion with Zoe and Tal → `integrated-syllabus-discussion-draft.md`
