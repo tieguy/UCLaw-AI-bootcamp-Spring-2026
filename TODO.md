@@ -2,7 +2,7 @@
 
 ## Immediate Next Steps
 
-- [ ] Confirm duration and scheduling constraints
+- [x] Confirm duration and scheduling constraints
 - [ ] Discuss key pedagogical questions (see `discussion-questions-2025-12-03.md`)
 
 ### Practitioner Involvement (Optional Enhancements)
