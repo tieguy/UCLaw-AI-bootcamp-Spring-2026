@@ -3,3 +3,6 @@ The focus of the course should be doing, not reading. But this list will be a ho
 
 * the Soul Doc, either the raw doc or a good summary like https://the-decoder.com/leaked-soul-doc-reveals-how-anthropic-programs-claudes-character/
 * LLM "personalities" and cross-model comparison: https://www.sonarsource.com/blog/the-coding-personalities-of-leading-llms/ (TODO: find a law-specific equivalent on model comparison)
+
+# Prompts
+https://bsky.app/profile/codewright.bsky.social/post/3mbo7iuipak2t
