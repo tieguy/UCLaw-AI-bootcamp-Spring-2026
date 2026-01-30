@@ -14,7 +14,7 @@ this is a clinic, not a lecture. We’re here to experiment. “This doesn’t w
 ## Producing work vs. checking work
 ## Asking questions vs. creating methodology
 
-If you take away only one thing from this class, it might be this: there is a big difference between telling a chat bot “write me a memo” and working with it as a tool that builds a memo you can trust.
+If you take away only one thing from this class, it might be this: there is a big difference between telling a chat bot “write me a memo” and working with it as a tool that builds a memo you can trust. It looks like from your questions a lot of you are already aware of that, which is great - but going to press me hard to stay ahead of you!
 
 Frankly, this is not stuff any lawyer has perfect intuition for yet - one way to think about this class is what it will take to make you comfortable articulating this difference and knowing when to do which.
 
@@ -39,7 +39,9 @@ This is the same problem you’ll face in legal work—you need to verify, not j
 TODO: Screenshots of the "help with contracts" prompt from work
 
 Let's talk through a couple of considerations here:
-- "getting it right" is different in contract law than 
+- "getting it right" is different in contract law than litigation
+- "LLMs just copy the work of others" - contract lawyers also almost entirely copy the work of others
+- includes some technical direction to make it work well
 
 -----
 
@@ -92,4 +94,3 @@ The State Bar’s AI guidance is a starting point, not an answer. The tools will
 ## Where’s the line—and who decides?
 
 Luis facilitates. This is genuinely unsettled. Draw out the tension. No right answer yet, but students need to be thinking about it.
-
