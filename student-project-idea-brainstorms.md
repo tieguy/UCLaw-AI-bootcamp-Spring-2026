@@ -16,6 +16,21 @@ The capstone project (presented in Session 6) asks you to analyze a realistic sc
 
 ---
 
+## Meta
+Ethan Mollick, b-school prof, asks his students ["what makes you uniquely human" as a prompt for their capstones.](https://www.linkedin.com/posts/emollick_i-started-the-vibefounding-mba-class-where-activity-7417943251430567936-zD3Y)
+
+This is a great way to think about LLMs, and life in general:
+
+> 1) What are 2-3 industries or types of work in which you have deep experience?
+> 2) What are 2-3 skills (broadly defined) where you would consider yourself world class? These are areas that have traditionally gained you notice among your peers or where you know you are particularly good.
+> 3) What are 2-3 things outside of work that you LOVE and have knowledge about? This could be hobbies (you knit, you play a sport, you play Dungeons and Dragons, you volunteer at an assisted living home, you are an avid birdwatcher) or areas of particular interest (you are part of an internet community devoted to movies, you follow all the latest nutritional supplement news, you are really into modern art).
+
+> Their startups had to build on these very human edges. If you are just using the knowledge and abilities inherent in the model, you aren't really using your human advantage.
+
+What is your human edge?
+
+---
+
 ## Scenario Options
 
 ### Small Firm Practice
