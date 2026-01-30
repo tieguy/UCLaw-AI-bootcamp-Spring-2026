@@ -1,0 +1,9 @@
+# Generated slides
+lectures/*.pdf
+lectures/*.html
+lectures/*.pptx
+
+# Marp output
+*.pdf
+*.html
+*.pptx
