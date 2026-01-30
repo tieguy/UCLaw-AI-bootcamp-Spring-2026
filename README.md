@@ -8,7 +8,7 @@ Instructors: Luis Villa & Zoe Dolan
 This 6-session bootcamp prepares law students to be the first generation of AI-enabled lawyers. You'll move beyond basic chatbot interactions to develop practical skills for evaluating, deploying, and building AI-augmented workflows—while integrating ethics and professional responsibility from day one.
 
 **Format:** 6 sessions
-**Schedule:** Jan 23, Jan 30, Feb 13, Mar 13, Mar 20, Apr 10
+**Schedule:** Jan 30, Feb 6, Feb 13, Mar 13, Mar 20, Apr 10
 **Grading:** Pass/fail to encourage experimentation
 
 ## Course Materials
@@ -26,13 +26,13 @@ The gap between "what experts do" and "what we'd naively ask AI to do" is where 
 ## Sessions
 
 ### Session 1: Foundations — Going Beyond Chat
-*Jan 23*
+*Jan 30*
 - What lawyers actually do with AI beyond prompting
 - AI literacy: how generative and agentic AI work (conceptual, not technical)
 - Introduction to CA Rule 1.1 competence obligations
 
 ### Session 2: Computational Thinking & Playbook Design
-*Jan 30*
+*Feb 6*
 - Breaking down legal processes into executable steps
 - From human checklists to instructions an AI can follow
 
@@ -52,10 +52,10 @@ The gap between "what experts do" and "what we'd naively ask AI to do" is where 
 - Prompt engineering and context design for legal work
 - Multi-step and multi-agent coordination
 - Quality control and verification
-- **Project 4 (Capstone) assigned**: Strategic decision exercise
+- **Capstone project assigned**: Strategic decision exercise
 
 ### Session 6: Ethics, Strategy & Capstone
-*Apr 10 · Project 4 presentations*
+*Apr 10 · Capstone presentations*
 - Privilege and confidentiality with AI tools
 - Duty of competence in AI-augmented practice
 - Student capstone presentations
