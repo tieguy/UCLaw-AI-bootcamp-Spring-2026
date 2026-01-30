@@ -36,7 +36,9 @@ This is the same problem you’ll face in legal work—you need to verify, not j
 -----
 # Demo: The chat-structure gap
 
-TODO: Screenshots of the "help with contracts" prompt from work
+Live demo using prompts from the repo:
+- [Terms of Service Gem](https://github.com/tieguy/UCLaw-AI-bootcamp-Spring-2026/blob/main/readings/prompts/terms-of-service-gem.md) - structured contract review vs. naive "fix my ToS"
+- [Caulfield's Deep Background](https://github.com/tieguy/UCLaw-AI-bootcamp-Spring-2026/blob/main/readings/prompts/caulfield-deep-background.md) - structured fact-checking (students read this)
 
 Let's talk through a couple of considerations here:
 - "getting it right" is different in contract law than litigation
