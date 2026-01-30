@@ -1,22 +1,11 @@
 # Student Project Idea Brainstorms
 
-This document collects potential capstone project ideas for the course. These are starting points for discussion—feel free to adapt, combine, or propose alternatives based on your interests and career goals.
-
-## Capstone Project Format
-
-The capstone project (presented in Session 6) asks you to analyze a realistic scenario and make a strategic decision about AI tool adoption, with justification.
-
-**Core question**: Given a specific practice context, should you use an existing AI tool, build custom workflows, commission software, or maintain current practices?
-
-**Deliverable**: Presentation covering your recommendation and reasoning, addressing:
-- Cost and capability analysis
-- Professional responsibility considerations (privilege, confidentiality, competence)
-- Implementation feasibility
-- Risk assessment
+Potential capstone project ideas for the course. Choose based on your interests, career goals, and preferred engagement mode: **Evaluator** (audit/critique existing systems) or **Builder** (design/prototype new tools).
 
 ---
 
 ## Meta
+
 Ethan Mollick, b-school prof, asks his students ["what makes you uniquely human" as a prompt for their capstones.](https://www.linkedin.com/posts/emollick_i-started-the-vibefounding-mba-class-where-activity-7417943251430567936-zD3Y)
 
 This is a great way to think about LLMs, and life in general:
@@ -31,126 +20,215 @@ What is your human edge?
 
 ---
 
-## Scenario Options
+## Featured Option: System Alignment Challenge
+
+### How do we align AI tools not just with "law," but with *justice*?
+
+This capstone tackles two core alignment problems:
+1. **Micro-alignment**: The language we use to train AI shapes its "moral geometry"
+2. **Macro-alignment**: The structural design of legal service delivery determines who gets justice
+
+**Full details and specifications**: See [Issue #3](https://github.com/tieguy/UCLaw-AI-bootcamp-Spring-2026/issues/3)
+
+### Track A: The Evaluator ("Wet Cement" Auditor)
+
+**Focus**: Embeddings, language, and moral geometry
+
+**Task**: Conduct a "Moral Embedding Audit" of a legal workflow (eviction notices, plea offers, contract terminations)
+
+**Deliverables**:
+- Jupyter Notebook with before/after vector analysis and visualizations
+- Linguistic Policy Memo (5-8 pages) arguing why specific legal language must change
+- Side-by-side AI outputs using "cold" vs "warm" terminology
+
+**Skills**: Embeddings, vector similarity, data visualization, prompt engineering, statistical analysis
+
+**Example projects**: Eviction notice bias audit, plea bargain language analysis, contract termination dignity study
+
+### Track B: The Builder ("Alliance" Architect)
+
+**Focus**: Service design, access, and regulatory strategy
+
+**Task**: Prototype a "Community Justice Node"—AI tool for non-lawyer settings (library, union hall, tenant organization)
+
+**Deliverables**:
+- Working prototype with documentation (GitHub repo)
+- Service design blueprint mapping human/AI handoffs
+- Regulatory strategy memo (5-8 pages) defending against UPL claims
+- 5-minute demo video
+
+**Skills**: LLM API integration, prompt engineering, workflow design, UX for non-technical users, regulatory analysis
+
+**Example projects**: Freelancer legal cooperative, tenant defense toolkit, small claims navigator
+
+### Hybrid Option: Full Stack Alignment Architect
+
+Build the "Alliance" tool (Track B), then run the "Wet Cement" audit (Track A) on its own internal prompts to certify it as "Justice Aligned."
+
+**Additional deliverable**: Alignment Certification Report proving the tool's language choices align with stated values
+
+**Why this option**: Technically rigorous (embeddings, agent design), legally sophisticated (UPL, access to justice), portfolio-ready proof of capability
+
+---
+
+## Practice-Oriented Scenarios
+
+Choose an engagement mode for any scenario:
+
+### Evaluator Mode
+Audit existing AI tools or workflows, document capabilities/limitations/failure modes, recommend whether to adopt
+
+### Builder Mode
+Design and prototype a custom AI workflow or tool for the practice context, with implementation and risk mitigation plan
+
+---
 
 ### Small Firm Practice
 
-**Context**: 5-attorney plaintiff's employment firm handling 40-60 active matters (single-plaintiff discrimination and wage/hour cases). Currently using Clio for practice management and Westlaw for research.
+**Context**: 5-attorney plaintiff's employment firm (40-60 active cases). Currently: Clio + Westlaw.
 
-**Decision**: Should the firm:
-- Subscribe to a legal AI tool ($500-2000/month)?
-- Build custom Claude/GPT playbooks for intake and demand letters?
-- Keep doing things manually?
+**Evaluator**: Test 2-3 legal AI tools on actual intake emails and demand letter drafting. Document what works, what fails, cost-benefit analysis.
 
-**Key considerations**: Cost vs. volume, privilege protection, time investment to learn/maintain, vendor dependency, what happens when the tool fails.
+**Builder**: Design custom intake triage workflow or demand letter generation system. Prototype with quality control checkpoints.
+
+**Key issues**: Cost vs. volume, privilege protection, time to learn/maintain, vendor lock-in
 
 ---
 
 ### In-House Legal Operations
 
-**Context**: First legal ops hire at a 50-person startup. GC asks you to handle the flood of vendor NDAs and procurement contracts.
+**Context**: First legal ops hire at 50-person startup drowning in vendor NDAs and procurement contracts.
 
-**Decision**: Should you:
-- Adopt a contract management platform with AI review?
-- Build internal playbooks using enterprise Claude/GPT?
-- Outsource to an ALSP with AI capabilities?
-- Some hybrid approach?
+**Evaluator**: Compare contract management platforms (with AI) vs. ALSPs vs. general-purpose LLMs. Build vs. buy vs. outsource decision.
 
-**Key considerations**: Build vs. buy vs. outsource tradeoffs, internal expertise requirements, scalability, integration with existing systems.
+**Builder**: Prototype internal NDA review workflow with playbook encoding company positions, risk flagging, redline suggestions.
+
+**Key issues**: Scalability, integration with existing systems, internal expertise, handoff protocols
 
 ---
 
-### Litigation Discovery Support
+### Access-to-Justice Tool
 
-**Context**: Mid-size litigation firm considering AI-assisted document review for discovery.
+**Context**: Legal aid organization considering AI deployment for underserved populations.
 
-**Decision**: Evaluate options:
-- Traditional TAR/CAL platforms (Relativity, etc.)
-- General-purpose LLM approaches
-- Hybrid human/AI workflows
-- Continue with traditional manual review
+**Evaluator**: Rigorously test an existing A2J tool (e.g., eviction defense, benefits eligibility). Document UPL boundaries, accuracy on edge cases, privacy risks.
 
-**Key considerations**: Proportionality, privilege protection, competence obligations, cost-benefit analysis, client billing implications.
+**Builder**: Design community-accessible tool for specific legal need. Define clear human escalation triggers. Develop regulatory defense strategy.
+
+**Key issues**: UPL boundaries, privacy for vulnerable populations, accuracy requirements, digital divide, liability exposure
 
 ---
 
-### Access-to-Justice Tool Deployment
+### Litigation Discovery
 
-**Context**: Legal aid organization considering deployment of an AI-powered intake or advice tool for underserved populations.
+**Context**: Mid-size firm evaluating AI-assisted document review.
 
-**Decision**: Should you:
-- Deploy an existing A2J AI tool?
-- Build a custom tool for your jurisdiction?
-- Create an AI-assisted triage system for staff?
-- Maintain traditional intake?
+**Evaluator**: Compare TAR/CAL platforms vs. general LLM approaches. Test on sample document set, measure accuracy, assess proportionality and privilege protection.
 
-**Key considerations**: UPL boundaries, privacy and data security for vulnerable populations, accuracy requirements, liability exposure, digital divide concerns.
+**Builder**: Design hybrid human/AI review workflow. Prototype privilege log generation or key document identification system.
+
+**Key issues**: Proportionality, privilege, competence obligations, cost-benefit, client billing implications
 
 ---
 
-### Solo Practice Automation
+### Solo/Small Practice Automation
 
-**Context**: Solo practitioner in family law with limited budget and high case volume.
+**Context**: Solo practitioner (family law, estates, etc.) with limited budget, high volume.
 
-**Decision**: What AI tools, if any, should you adopt?
-- Document automation tools
-- General-purpose LLM subscriptions
-- Legal research AI
-- Practice management with AI features
-- Custom workflows
+**Evaluator**: Test general-purpose LLM subscriptions vs. legal-specific tools. Document what's worth paying for on a limited budget.
 
-**Key considerations**: Budget constraints, time to learn vs. time saved, client service quality, ethical obligations on limited resources, sustainability.
+**Builder**: Design simple automation for most repetitive task (client intake, standard forms, status updates). Focus on sustainability and learning curve.
+
+**Key issues**: Budget constraints, time to learn vs. time saved, client service quality, ethical obligations on limited resources
 
 ---
 
-### Appellate Practice Tool Evaluation
+### Appellate Practice
 
-**Context**: Appellate clinic or small appellate practice evaluating AI for brief writing, research, and record review.
+**Context**: Appellate clinic or small appellate practice evaluating AI integration.
 
-**Decision**: How should AI fit into appellate practice?
-- Research verification workflows
-- Record review and issue spotting
-- Draft brief generation vs. draft brief critique
-- Citation checking automation
+**Evaluator**: Test AI tools for record review, research verification, citation checking. Document when AI helps vs. hinders appellate-quality work.
 
-**Key considerations**: Standard of review for accuracy in appellate work, relationship to oral argument preparation, judicial expectations, record-intensive vs. legal-intensive appeals.
+**Builder**: Design workflow for one appellate task (issue spotting from record, research verification, cite-checking). Define quality thresholds.
+
+**Key issues**: Accuracy standards for appellate work, relationship to oral argument prep, judicial expectations, record-intensive vs. legal-intensive appeals
 
 ---
 
-## Alternative Project Formats
+## Alternative Approaches
 
-If none of these scenarios fit your interests, consider:
+### Deep Ethics Dive
+Pick an emerging ethics issue and analyze in depth:
+- Privilege in multi-tenant AI systems
+- Conflicts of interest in shared legal AI tools
+- Defining "competence" for AI-augmented practice
+- Informed consent for AI use in client matters
 
-1. **Tool Comparison Study**: Rigorously evaluate 3+ tools on the same legal task, documenting capabilities, limitations, and failure modes.
+**Deliverable**: Analysis memo with proposed ethical framework or rule modifications
 
-2. **Workflow Design + Evaluation**: Design a novel AI-augmented workflow for a repetitive legal task, then build and test a prototype.
+### Tool Comparison Study
+Rigorously evaluate 3+ tools on identical legal task. Document capabilities, limitations, failure modes, costs.
 
-3. **Ethics Analysis**: Deep dive into an emerging ethics issue (e.g., privilege in multi-tenant AI systems, conflicts in shared tools, competence obligations for AI-generated work).
+**Deliverable**: Comparison matrix, test results, purchase recommendation with risk assessment
 
-4. **Access Barrier Analysis**: Evaluate how AI tools affect access to justice—both opportunities (reducing costs) and risks (digital divide, UPL, quality).
+### Workflow Design Sprint
+Design novel AI-augmented workflow for repetitive legal task, build prototype, test with real examples, document results.
+
+**Deliverable**: Working prototype, design documentation, evaluation report, implementation roadmap
 
 ---
 
 ## Evaluation Criteria
 
-Regardless of scenario chosen, strong projects demonstrate:
+Strong projects demonstrate:
 
-- **Rigorous analysis**: Not just "AI is good/bad" but nuanced understanding of specific use cases
-- **Professional responsibility integration**: Ethics isn't an afterthought
-- **Cost-benefit realism**: Honest assessment of tradeoffs, not vendor marketing
-- **Failure mode awareness**: What could go wrong and how to mitigate
+- **Rigor**: Nuanced analysis, not "AI good/bad"
+- **Professional responsibility**: Ethics integrated throughout, not afterthought
+- **Realism**: Honest cost-benefit assessment, not vendor marketing
+- **Failure awareness**: What could go wrong and how to mitigate
 - **Implementation thinking**: Not just "should we" but "how would we"
 
-"This doesn't work safely" or "this isn't worth the risk" are valid conclusions if well-supported.
+**"This doesn't work safely" is a valid and valuable conclusion if well-supported.**
+
+---
+
+## Technical Depth Options
+
+- **Analysis-focused**: Evaluation, comparison, decision framework (requires legal research, tool testing, interview skills)
+- **Build-light**: Simple workflows using existing tools, prompt engineering (requires API basics, workflow design)
+- **Build-heavy**: Custom prototypes with embeddings, agents, complex workflows (requires coding, LLM APIs, technical architecture)
+
+All depth levels are valid. Match to your technical comfort and learning goals.
 
 ---
 
 ## Getting Started
 
-1. **Choose a scenario** that aligns with your career interests or explore a new practice area
-2. **Research the landscape**: What tools actually exist? What do they cost? What do they claim to do?
-3. **Identify the decision criteria**: What matters most in this context?
-4. **Test if possible**: Can you trial tools, interview practitioners, or build prototypes?
-5. **Consider failure modes**: What are the professional responsibility risks?
+1. **Choose engagement mode**: Evaluator or Builder? (Or hybrid for ambitious projects)
+2. **Select scenario**: What practice context interests you?
+3. **Scope appropriately**: 3-week timeline from assignment to presentation
+4. **Research landscape**: What exists? What's possible? What are the constraints?
+5. **Define success criteria**: What would "done well" look like?
 
 We'll discuss project selection and scope in Session 5 when the capstone is formally assigned.
+
+---
+
+## Resources
+
+**For Evaluator tracks**:
+- Tool trial access (coordinate with instructors)
+- Practitioner interview connections
+- Evaluation frameworks and rubrics
+
+**For Builder tracks**:
+- LLM API access (OpenAI, Anthropic, etc.)
+- Sample legal text and datasets
+- Technical tutorials and starter code
+- Office hours for debugging and design feedback
+
+**For System Alignment Challenge**:
+- Full specifications in [Issue #3](https://github.com/tieguy/UCLaw-AI-bootcamp-Spring-2026/issues/3)
+- Embeddings tutorials and baseline datasets
+- UPL case law and regulatory strategy resources
+- Community organization contacts for user research
