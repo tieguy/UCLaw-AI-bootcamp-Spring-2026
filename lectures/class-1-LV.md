@@ -7,20 +7,25 @@
 
 this is a clinic, not a lecture. We’re here to experiment. “This doesn’t work” is a valid outcome. Your intuitions are good and valid.
 
+Also, we should be honest: most lawyers are hopelessly behind the times. (Tell LF anecdote)
+
 ----
 # AI: Chat vs. Tool
 
-## "One-shot" prompts vs. structured workflows
-## Producing work vs. checking work
-## Asking questions vs. creating methodology
+	- "One-shot" prompts vs. structured workflows
+	- Producing work vs. checking work
+	- Asking questions vs. creating methodology
 
 If you take away only one thing from this class, it might be this: there is a big difference between telling a chat bot “write me a memo” and working with it as a tool that builds a memo you can trust. It looks like from your questions a lot of you are already aware of that, which is great - but going to press me hard to stay ahead of you!
 
 Frankly, this is not stuff any lawyer has perfect intuition for yet - one way to think about this class is what it will take to make you comfortable articulating this difference and knowing when to do which.
 
+---
+# Dissecting a not-super-prompt: [Sarcasmotron](https://raw.githubusercontent.com/tieguy/UCLaw-AI-bootcamp-Spring-2026/refs/heads/main/readings/prompts/dollspace-sarcasmotron.md) 
+
 -----
 
-## Discussion: Dissecting a “Superprompt”
+# Dissecting the [“Superprompt”](https://github.com/tieguy/UCLaw-AI-bootcamp-Spring-2026/blob/main/readings/prompts/caulfield-deep-background.md)
 
 Questions:
 - any interesting takeaways from reading the prompt?
@@ -34,11 +39,10 @@ Some sample thoughts:
 This is the same problem you’ll face in legal work—you need to verify, not just accept.
 
 -----
-# Demo: The chat-structure gap
+# In legal practice: [prompting for a TOU](https://github.com/tieguy/UCLaw-AI-bootcamp-Spring-2026/blob/main/readings/prompts/terms-of-service-gem.md)
 
 Live demo using prompts from the repo:
 - [Terms of Service Gem](https://github.com/tieguy/UCLaw-AI-bootcamp-Spring-2026/blob/main/readings/prompts/terms-of-service-gem.md) - structured contract review vs. naive "fix my ToS"
-- [Caulfield's Deep Background](https://github.com/tieguy/UCLaw-AI-bootcamp-Spring-2026/blob/main/readings/prompts/caulfield-deep-background.md) - structured fact-checking (students read this)
 
 Let's talk through a couple of considerations here:
 - "getting it right" is different in contract law than litigation
@@ -65,7 +69,7 @@ Draw out: pattern-matching tasks vs. novel reasoning, drafting vs. verification,
 
 -----
 
-# Closing
+# Closing (if time)
 
 ## The Competence Obligation
 
