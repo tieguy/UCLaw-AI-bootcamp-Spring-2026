@@ -30,22 +30,19 @@ The gap between "what experts do" and "what we'd naively ask AI to do" is where 
 - What lawyers actually do with AI beyond prompting
 - AI literacy: how generative and agentic AI work (conceptual, not technical)
 - Introduction to CA Rule 1.1 competence obligations
-- **Project 1 assigned**: Tool evaluation exercise
 
 ### Session 2: Computational Thinking & Playbook Design
-*Jan 30 · Project 1 due*
+*Jan 30*
 - Breaking down legal processes into executable steps
 - From human checklists to instructions an AI can follow
-- **Project 2 assigned**: Encode a checklist/playbook for an LLM
 
 ### Session 3: Practice Operations & Tool Selection
-*Feb 13 · Project 2 due*
+*Feb 13*
 - Evaluating vendors and tools
 - Build vs. buy decision-making
-- **Project 3 assigned**: Design an AI-augmented workflow
 
 ### Session 4: Litigation & Transactional Applications
-*Mar 13 · Project 3 due*
+*Mar 13*
 - Discovery, research, and motion practice tools
 - Contract review, drafting, and template systems
 - Hallucination detection and verification workflows
