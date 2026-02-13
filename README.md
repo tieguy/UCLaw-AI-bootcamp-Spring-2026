@@ -25,12 +25,12 @@ The gap between "what experts do" and "what we'd naively ask AI to do" is where 
 
 ## Syllabus
 
-- ✅ Mindset (w/ irl examples)
-- ✅ Nature of research now
-- Practice mgmt. – tools, platforms, etc.
-- Truth? Falsification/adversarial/etc.
-- Acceleration and change mgmt. - socially and organizationally
-- Capstone project presentations
+- ✅ Week 1: Mindset (w/ irl examples)
+- ✅ Week 2: Nature of research now
+- Week 3: Practice mgmt. – tools, platforms, etc.
+- Week 4: Truth? Falsification/adversarial/etc.
+- Week 5: Acceleration and change mgmt. - socially and organizationally
+- Week 6: Capstone project presentations
 
 ## License
 
