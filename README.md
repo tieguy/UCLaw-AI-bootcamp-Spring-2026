@@ -23,42 +23,14 @@ This is a clinic, not a lecture course. We're here to experiment. "This doesn't 
 
 The gap between "what experts do" and "what we'd naively ask AI to do" is where the interesting work lives.
 
-## Sessions
+## Syllabus
 
-### Session 1: Foundations — Going Beyond Chat
-*Jan 30*
-- What lawyers actually do with AI beyond prompting
-- AI literacy: how generative and agentic AI work (conceptual, not technical)
-- Introduction to CA Rule 1.1 competence obligations
-
-### Session 2: Computational Thinking & Playbook Design
-*Feb 6*
-- Breaking down legal processes into executable steps
-- From human checklists to instructions an AI can follow
-
-### Session 3: Practice Operations & Tool Selection
-*Feb 13*
-- Evaluating vendors and tools
-- Build vs. buy decision-making
-
-### Session 4: Litigation & Transactional Applications
-*Mar 13*
-- Discovery, research, and motion practice tools
-- Contract review, drafting, and template systems
-- Hallucination detection and verification workflows
-
-### Session 5: Building Robust AI Workflows
-*Mar 20*
-- Prompt engineering and context design for legal work
-- Multi-step and multi-agent coordination
-- Quality control and verification
-- **Capstone project assigned**: Strategic decision exercise
-
-### Session 6: Ethics, Strategy & Capstone
-*Apr 10 · Capstone presentations*
-- Privilege and confidentiality with AI tools
-- Duty of competence in AI-augmented practice
-- Student capstone presentations
+- Mindset (w/ irl examples)
+- Nature of research now
+- Practice mgmt. – tools, platforms, etc.
+- Truth? Falsification/adversarial/etc.
+- Acceleration and change mgmt. - socially and organizationally
+- Capstone project presentations
 
 ## License
 
