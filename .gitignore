@@ -7,3 +7,6 @@ lectures/*.pptx
 *.pdf
 *.html
 *.pptx
+
+# Track chainlink issue database
+!.chainlink/issues.db
